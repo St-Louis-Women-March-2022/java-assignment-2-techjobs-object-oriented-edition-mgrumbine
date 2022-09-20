@@ -27,6 +27,7 @@ public class PositionType {
     public String toString() {
         return value;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -39,7 +40,6 @@ public class PositionType {
     public int hashCode() {
         return Objects.hash(id);
     }
-
 
     // Getters and Setters:
 
